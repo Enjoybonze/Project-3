@@ -16,7 +16,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   max-width: 1200px;
-  height: 900px;
+  height: auto;
   margin: auto;
 }
 
@@ -293,6 +293,20 @@ a.StP-Button2:focus:after {
   transition: .5s;
 }
 
+.StP-SocialMedia {
+  color: white;
+}
+
+.fa .StP-SocialMedia {
+  color: white;
+  background-color: white;
+}
+
+i.fa.StP-SocialMedia {
+  padding-right: 10px;
+  margin-left: 10px;
+}
+
 a.StP-Button3 {
   position: relative;
   display: inline-block;
@@ -352,19 +366,15 @@ a.StP-Button3:after {
   margin-top: 50px;
 }
 
-#StP-IFrame {
-  max-height: 800px;
-  height: 900px;
-  max-width: 900px;
-  width: 100%;
+iframe.StP-IFrame {
+  max-height: 100vh;
+  height: 100vh;
+  max-width: 1200px;
+  width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0;
-}
-
-#StP-Frame {
-  width: 100%;
 }
 
 .StP-ButtonNav {
@@ -504,8 +514,8 @@ hr {
 }
 
 .SeP-image {
-  max-width: 100%;
-  height: auto;
+  width: 850px;
+  height: 460px;
 }
 
 img {
@@ -518,6 +528,16 @@ a {
 
 .SeP-hoverable tbody tr:hover, .SeP-ul.SeP-hoverable li:hover {
   background-color: #ccc;
+}
+
+.SeP-Image-Middle {
+  height: 250px;
+  width: 370px;
+}
+
+.SeP-Image-Middle2 {
+  height: 200px;
+  width: 270px;
 }
 
 .SeP-button {
@@ -545,6 +565,10 @@ a {
 .SeP-button:disabled {
   cursor: not-allowed;
   opacity: 0.3;
+}
+
+img.SeP-Cat {
+  height: 230px;
 }
 
 .SeP-tag {
@@ -624,6 +648,10 @@ a {
 .SeP-bar {
   position: static;
   float: left;
+}
+
+.SeP-Wsize.l4 {
+  width: 33%;
 }
 
 .SeP-bar, .SeP-button {
@@ -1083,10 +1111,6 @@ a {
 .SeP-section {
   margin-top: 16px;
   margin-bottom: 16px;
-}
-
-.SeP-margin {
-  margin: 16px;
 }
 
 .SeP-margin-top {
