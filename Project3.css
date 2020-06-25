@@ -42,6 +42,80 @@
   clear: both;
 }
 
+@-webkit-keyframes bouncy {
+  0% {
+    top: 0em;
+  }
+  40% {
+    top: 0em;
+  }
+  43% {
+    top: -0.9em;
+  }
+  46% {
+    top: 0em;
+  }
+  48% {
+    top: -0.4em;
+  }
+  50% {
+    top: 0em;
+  }
+  100% {
+    top: 0em;
+  }
+}
+
+@keyframes bouncy {
+  0% {
+    top: 0em;
+  }
+  40% {
+    top: 0em;
+  }
+  43% {
+    top: -0.9em;
+  }
+  46% {
+    top: 0em;
+  }
+  48% {
+    top: -0.4em;
+  }
+  50% {
+    top: 0em;
+  }
+  100% {
+    top: 0em;
+  }
+}
+
+#FirstPage {
+  -webkit-animation-delay: 0.07s;
+          animation-delay: 0.07s;
+}
+
+#SecondPage {
+  -webkit-animation-delay: 0.14s;
+          animation-delay: 0.14s;
+}
+
+#ThirdPage {
+  -webkit-animation-delay: 0.21s;
+          animation-delay: 0.21s;
+}
+
+#FourthPage {
+  -webkit-animation-delay: 0.28s;
+          animation-delay: 0.28s;
+}
+
+.StP-Bouncy {
+  -webkit-animation: bouncy 5s infinite linear;
+          animation: bouncy 5s infinite linear;
+  position: relative;
+}
+
 .FiP-third {
   margin: 5px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
