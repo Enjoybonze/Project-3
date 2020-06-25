@@ -16,6 +16,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   max-width: 1200px;
+  max-height: 900px;
   height: auto;
   margin: auto;
 }
@@ -117,6 +118,11 @@
   color: #fff;
   background: -webkit-gradient(linear, left top, right top, color-stop(14%, #33ccff), to(#ff99cc));
   background: linear-gradient(to right, #33ccff 14%, #ff99cc 100%);
+}
+
+span.FiP-Burger {
+  font-size: 30px;
+  cursor: pointer;
 }
 
 .FiP-round-xlarge1 {
@@ -368,9 +374,9 @@ a.StP-Button3:after {
 
 iframe.StP-IFrame {
   max-height: 100vh;
-  height: 100vh;
+  height: 100%;
   max-width: 1200px;
-  width: 1200px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -514,7 +520,7 @@ hr {
 }
 
 .SeP-image {
-  width: 850px;
+  width: 948px;
   height: 460px;
 }
 
@@ -537,7 +543,14 @@ a {
 
 .SeP-Image-Middle2 {
   height: 200px;
-  width: 270px;
+  width: 311px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+img.SeP-Image-Small {
+  height: 100px;
 }
 
 .SeP-button {
@@ -654,6 +667,10 @@ img.SeP-Cat {
   width: 33%;
 }
 
+.SeP-wide {
+  width: 70%;
+}
+
 .SeP-bar, .SeP-button {
   white-space: normal;
 }
@@ -685,6 +702,14 @@ img.SeP-Cat {
 
 .SeP-Wsize {
   float: right;
+}
+
+.SeP-Wsize1.l2.m3 {
+  width: 100px;
+  height: 100px;
+  padding: 1px;
+  padding-right: 20px;
+  padding-top: 15px;
 }
 
 .SeP-Wsize.s1 {
@@ -1122,7 +1147,7 @@ img.SeP-Cat {
 }
 
 .SeP-margin-left {
-  margin-left: 16px;
+  margin-left: 20px;
 }
 
 .SeP-margin-right {
@@ -1191,6 +1216,7 @@ img.SeP-Cat {
 .SeP-red, .SeP-hover-red:hover {
   color: #fff;
   background-color: #f44336;
+  width: 92%;
 }
 
 .SeP-white, .SeP-hover-white:hover {
