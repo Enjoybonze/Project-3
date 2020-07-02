@@ -22,12 +22,25 @@
 .SeP-body   {  
   display: -webkit-box;
   display: -ms-flexbox;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  max-width: 1200px;
+  height: 900px;
+  margin: auto;
+}
+.FhP-body   {  
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   max-width: 1200px;
   height: 900px;
   margin: auto;
+}
+.SeP-bigblack {
+  height: -150px;
 }
 .FiP-twothird   {  
   margin: 2px;
@@ -45,10 +58,18 @@
     50%{top:0em}
     100%{top:0em;}
 }
-#FirstPage{animation-delay: 0.07s;}
-#SecondPage{animation-delay: 0.14s;}
-#ThirdPage{animation-delay: 0.21s;}
-#FourthPage{animation-delay: 0.28s;}
+#FirstPage{
+  animation-delay: 0.07s;
+}
+#SecondPage{
+  animation-delay: 0.14s;
+}
+#ThirdPage{
+  animation-delay: 0.21s;
+}
+#FourthPage{
+  animation-delay: 0.28s;
+}
 .StP-Bouncy {
   animation:bouncy 5s infinite linear;
   position: relative;
@@ -347,12 +368,14 @@ a.StP-Button3:after  {
 }
 
 iframe.StP-IFrame {
-  max-height: 100vh;
   height: 100%;
-  max-width: 1200px;
   width: 100%;
   display: flex;
   margin: 0;
+}
+.StP-Iframesection {
+  height: 100vh;
+  flex: 1;
 }
 .StP-ButtonNav  { 
   display:inline-block;

@@ -24,12 +24,27 @@
 .SeP-body {
   display: -webkit-box;
   display: -ms-flexbox;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  max-width: 1200px;
+  height: 900px;
+  margin: auto;
+}
+
+.FhP-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   max-width: 1200px;
   height: 900px;
   margin: auto;
+}
+
+.SeP-bigblack {
+  height: -150px;
 }
 
 .FiP-twothird {
@@ -447,14 +462,19 @@ a.StP-Button3:after {
 }
 
 iframe.StP-IFrame {
-  max-height: 100vh;
   height: 100%;
-  max-width: 1200px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0;
+}
+
+.StP-Iframesection {
+  height: 100vh;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .StP-ButtonNav {

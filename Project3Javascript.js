@@ -37,9 +37,6 @@ function closeSoc() {
   document.getElementById("FiP-BotSocial").style.bottom = "-140px";
 }
   
-  
-  
-document.getElementById("SeP-Button").click();
 function myFunction(id) {
   var x = document.getElementById(id);
   if (x.className.indexOf("SeP-show") == -1) {
@@ -49,7 +46,7 @@ function myFunction(id) {
   }
 }
   
-  function likeFunction(x) {
-    x.style.fontWeight = "bold";
-    x.innerHTML = "Liked";
-  }
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "Liked";
+}
