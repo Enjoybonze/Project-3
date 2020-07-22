@@ -614,7 +614,7 @@ hr {
 }
 
 .SeP-image {
-  width: 948px;
+  width: 143%;
   height: 460px;
 }
 
@@ -632,12 +632,12 @@ a {
 
 .SeP-Image-Middle {
   height: 250px;
-  width: 370px;
+  width: 90%;
 }
 
 .SeP-Image-Middle2 {
   height: 200px;
-  width: 311px;
+  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -945,25 +945,6 @@ img.SeP-Cat {
   }
 }
 
-@media (max-width: 600px) {
-  .SeP-modal-content {
-    margin: 0 10px;
-    width: auto;
-  }
-  .SeP-modal {
-    padding-top: 30px;
-  }
-}
-
-@media (max-width: 768px) {
-  .SeP-modal-content {
-    width: 500px;
-  }
-  .SeP-modal {
-    padding-top: 50px;
-  }
-}
-
 @media (min-width: 993px) {
   .SeP-modal-content {
     width: 900px;
@@ -976,7 +957,7 @@ img.SeP-Cat {
   }
 }
 
-@media (max-width: 992px) and (min-width: 601px) {
+@media (max-width: 992px) {
   .SeP-hide-medium {
     display: none;
   }
@@ -1010,9 +991,62 @@ img.SeP-Cat {
   }
 }
 
-@media (min-width: 601px) {
+@media (max-width: 750px) {
   .SeP-Wsize.m1 {
     width: 9%;
+  }
+  .SeP-modal-content {
+    width: 500px;
+  }
+  .SeP-modal {
+    padding-top: 50px;
+  }
+  .SeP-Wsize1 {
+    width: 100%;
+  }
+  .SeP-left {
+    float: none;
+  }
+  .FiP-row-padding {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .SeP-padding-16 {
+    height: 300px;
+  }
+  .FiP-third {
+    max-width: 89%;
+    margin-left: 17px;
+  }
+  .SeP-Image-Middle2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: block;
+    max-width: 60%;
+    margin: auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 50% 50%;
+    -webkit-box-shadow: black 0px 0px 5px;
+            box-shadow: black 0px 0px 5px;
+  }
+  .SeP-Wsize.l4 {
+    width: 100%;
+  }
+  .SeP-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .SeP-Wsize.m2 {
     width: 17%;
@@ -1316,6 +1350,8 @@ img.SeP-Cat {
 .SeP-white, .SeP-hover-white:hover {
   color: #000;
   background-color: #fff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .SeP-black, .SeP-hover-black:hover {
@@ -1354,5 +1390,36 @@ img.SeP-Cat {
   right: 0;
   bottom: 0;
   padding: 10px;
+}
+
+.Fhp-work-body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.FhP-hover {
+  transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -o-transition: all .3s linear;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
 }
 /*# sourceMappingURL=Project3.css.map */
