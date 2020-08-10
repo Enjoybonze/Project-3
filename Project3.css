@@ -1,3 +1,87 @@
+.StP-ButtonNav {
+  display: inline-block;
+  padding: 0.7em 1.4em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.15em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: #3369ff;
+  text-align: center;
+  -webkit-box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+          box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+  text-align: center;
+  position: relative;
+}
+
+.StP-ButtonNav:hover {
+  background-color: green;
+}
+
+.StP-ButtonNav:hover a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 0.4em auto;
+}
+
+.StP-ButtonNav:hover a:hover {
+  background-color: #eceaea;
+}
+
+.StP-ButtonNav:hover a:active {
+  top: 0;
+}
+
+.selectedbutton {
+  background-color: green;
+  font-size: 3rem;
+  cursor: pointer;
+  padding: 1.85rem 3rem;
+  border-radius: 10rem;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.selectedbutton:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.StP-Sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -250px;
+  background-color: #111;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.StP-Sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.StP-Sidenav a a:hover {
+  color: #ffffff;
+}
+
 .Main-body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -118,13 +202,8 @@
 
 .FiP-third {
   margin: 5px;
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  padding: 0 8px;
   float: left;
   width: auto;
-  -webkit-box-shadow: inherit;
-          box-shadow: inherit;
   color: #000;
   line-height: 1.5;
 }
@@ -401,90 +480,6 @@ iframe.StP-IFrame {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-}
-
-.StP-ButtonNav {
-  display: inline-block;
-  padding: 0.7em 1.4em;
-  margin: 0 0.3em 0.3em 0;
-  border-radius: 0.15em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-decoration: none;
-  font-family: 'Roboto',sans-serif;
-  text-transform: uppercase;
-  font-weight: 300;
-  color: #FFFFFF;
-  background-color: #3369ff;
-  text-align: center;
-  -webkit-box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
-          box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
-  text-align: center;
-  position: relative;
-}
-
-.StP-ButtonNav:hover {
-  background-color: green;
-}
-
-.StP-ButtonNav:hover a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  margin: 0.4em auto;
-}
-
-.StP-ButtonNav:hover a:hover {
-  background-color: #eceaea;
-}
-
-.StP-ButtonNav:hover a:active {
-  top: 0;
-}
-
-.selectedbutton {
-  background-color: green;
-  font-size: 3rem;
-  cursor: pointer;
-  padding: 1.85rem 3rem;
-  border-radius: 10rem;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-}
-
-.selectedbutton:hover {
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
-}
-
-.StP-Sidenav {
-  height: 100%;
-  width: 250px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: -250px;
-  background-color: #111;
-  overflow-x: hidden;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.StP-Sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #ffffff;
-  display: block;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.StP-Sidenav a a:hover {
-  color: #ffffff;
 }
 
 .StP-CloseBtn {
@@ -1021,6 +1016,17 @@ p {
   }
   #portfolio .items .work-item .body .image {
     height: 250px;
+  }
+  .FiP-card {
+    margin: 4px;
+  }
+  .FiP-display-container {
+    width: 70%;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
   }
 }
 
@@ -1743,5 +1749,13 @@ pre code, tt {
 
 .width-120 {
   width: 120px;
+}
+
+.wow {
+  visibility: visible;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+  -webkit-animation-name: wobble;
+          animation-name: wobble;
 }
 /*# sourceMappingURL=Project3.css.map */
