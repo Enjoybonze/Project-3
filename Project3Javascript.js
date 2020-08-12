@@ -45,8 +45,3 @@ function myFunction(id) {
     x.className = x.className.replace(" SeP-show", "");
   }
 }
-  
-function likeFunction(x) {
-  x.style.fontWeight = "bold";
-  x.innerHTML = "Liked";
-}

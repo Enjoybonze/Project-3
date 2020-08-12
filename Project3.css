@@ -224,14 +224,6 @@
 
 .FiP-p {
   display: block;
-  -webkit-margin-before: 1em;
-          margin-block-start: 1em;
-  -webkit-margin-after: 1em;
-          margin-block-end: 1em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
 }
 
 .FiP-text-teal {
@@ -575,14 +567,6 @@ a {
 
 p {
   display: block;
-  -webkit-margin-before: 1em;
-          margin-block-start: 1em;
-  -webkit-margin-after: 1em;
-          margin-block-end: 1em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
 }
 
 #portfolio {
@@ -1683,15 +1667,6 @@ pre code, tt {
 
 .lazyload {
   opacity: 0;
-}
-
-.lazyloading {
-  opacity: 1;
-  -webkit-transition: opacity 300ms;
-  transition: opacity 300ms;
-  background: #f7f7f7 url(/assets/img/icons/ajax-loader.gif) no-repeat center;
-  min-height: 60px;
-  min-width: 60px;
 }
 
 .circle-line:after {
